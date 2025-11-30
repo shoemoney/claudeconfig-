@@ -1,0 +1,68 @@
+{
+  "dxt_version": "0.1",
+  "name": "iMessage",
+  "display_name": "Read and Send iMessages",
+  "version": "0.1.10",
+  "description": "Send, read, and manage messages through Apple's Messages app",
+  "long_description": "This extension allows Claude to interact with your macOS iMessage app, enabling sending, reading, and managing messages. Ask Claude to summarize your recent messages, help you understand what's most important.\n\nIt uses macOS automation features to interact with the Messages app and requires your explicit permission through macOS security prompts before accessing Messages or Contacts. It is not affiliated with or endorsed by Apple Inc.",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com",
+    "url": "https://www.claude.ai"
+  },
+  "homepage": "https://www.claude.ai",
+  "documentation": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+  "support": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+  "icon": "icon.png",
+  "tools": [
+    {
+      "name": "send_imessage",
+      "description": "Send an iMessage to a contact"
+    },
+    {
+      "name": "search_contacts",
+      "description": "Search contacts by name, phone number, or email address"
+    },
+    {
+      "name": "read_imessages",
+      "description": "Read recent iMessages from a specific contact"
+    },
+    {
+      "name": "get_unread_imessages",
+      "description": "Get all unread iMessages"
+    }
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"],
+      "env": {
+        "HOME": "${HOME}"
+      }
+    }
+  },
+  "keywords": [
+    "imessage",
+    "messages",
+    "sms",
+    "contacts",
+    "send",
+    "read",
+    "unread",
+    "history",
+    "communication",
+    "automation",
+    "macos",
+    "apple"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "claude_desktop": ">=0.10.0",
+    "platforms": ["darwin"],
+    "runtimes": {
+      "node": ">=16.0.0"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ant.dir.ant.anthropic.chrome-control",
+  "version": "0.1.5",
+  "description": "Control Google Chrome browser tabs, windows, and navigation",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "chrome",
+    "browser",
+    "automation",
+    "mcp"
+  ],
+  "author": "Anthropic",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  }
+}

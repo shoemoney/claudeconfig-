@@ -1,0 +1,137 @@
+{
+  "mcpServers": {
+    "Exa_web_search_mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/exa-mcp-server"
+      ],
+      "env": {
+        "EXA_API_KEY": "${EXA_API_KEY}"
+      }
+    },
+    "tavily_websearch_mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "/Users/shoemoney/.bun/bin/tavily-mcp"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+      }
+    },
+    "Openrouter_Mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/openrouter-multimodal"
+      ],
+      "env": {
+        "OPEN_ROUTER_API_KEY": "${OPEN_ROUTER_API_KEY}"
+      }
+    },
+    "Framelink_Figma_MCP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key=${FIGMA_API_KEY}",
+        "--stdio"
+      ]
+    },
+    "filesystem": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/mcp-server-filesystem",
+        "/Users/shoemoney/Projects",
+        "/Users/shoemoney/Library/Application Support/Claude"
+      ]
+    },
+    "puppeteer": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/mcp-server-puppeteer"
+      ],
+      "env": {
+        "SCREENSHOT_PATH": "/Users/shoemoney/Desktop",
+        "PUPPETEER_HEADLESS": "true"
+      }
+    },
+    "memory": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "github": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/mcp-server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "brave_web_broser_search_mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/mcp-server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      }
+    },
+    "mult-fetch-mcp-server": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/mult-fetch-mcp-server"
+      ],
+      "env": {
+        "MCP_LANG": "en"
+      }
+    },
+    "firecrawl-Web_browsing_mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "/Users/shoemoney/.bun/bin/firecrawl-mcp"
+      ]
+    },
+    "Claude_optomized_figma": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "claude-talk-to-figma-mcp"
+      ]
+    },
+    "UI_Design_magic21dev_mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "@21st-dev/magic@latest",
+        "API_KEY=\"b6a4628c253011656620d3f3dd149ee0810578e209cfebd5d691de983842d0e1\""
+      ]
+    },
+    "Browse_AI_Pipedream": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "https://mcp.pipedream.net/1658a78a-ac66-430c-ac6e-50508288bef8/browse_ai"
+      ]
+    },
+    "Magic_UI_Design_mcp": {
+      "command": "/Users/shoemoney/.bun/bin/npx",
+      "args": [
+        "-y",
+        "@magicuidesign/mcp@latest"
+      ]
+    }
+  }
+}

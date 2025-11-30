@@ -1,0 +1,24 @@
+2025/11/30-13:42:23.770 21efc Reusing MANIFEST /Users/shoemoney/Library/Application Support/Claude/Local Storage/leveldb/MANIFEST-000001
+2025/11/30-13:42:23.771 21efc Recovering log #860
+2025/11/30-13:42:23.771 21efc Reusing old log /Users/shoemoney/Library/Application Support/Claude/Local Storage/leveldb/000860.log 
+2025/11/30-13:43:23.774 21eff Level-0 table #864: started
+2025/11/30-13:43:23.782 21eff Level-0 table #864: 16074 bytes OK
+2025/11/30-13:43:23.793 21eff Delete type=0 #860
+2025/11/30-13:43:23.795 21eff Compacting 4@0 + 1@1 files
+2025/11/30-13:43:23.802 21eff Generated table #865@0: 88 keys, 16538 bytes
+2025/11/30-13:43:23.802 21eff Compacted 4@0 + 1@1 files => 16538 bytes
+2025/11/30-13:43:23.812 21eff compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/30-13:43:23.813 21eff Delete type=2 #856
+2025/11/30-13:43:23.813 21eff Delete type=2 #854
+2025/11/30-13:43:23.813 21eff Delete type=2 #861
+2025/11/30-13:43:23.813 21eff Delete type=2 #864
+2025/11/30-13:43:23.813 21eff Delete type=2 #859
+2025/11/30-14:14:25.524 21eff Level-0 table #867: started
+2025/11/30-14:14:25.533 21eff Level-0 table #867: 17075 bytes OK
+2025/11/30-14:14:25.544 21eff Delete type=0 #863
+2025/11/30-14:49:25.523 21eff Level-0 table #869: started
+2025/11/30-14:49:25.532 21eff Level-0 table #869: 17804 bytes OK
+2025/11/30-14:49:25.543 21eff Delete type=0 #866
+2025/11/30-15:24:25.524 21eff Level-0 table #871: started
+2025/11/30-15:24:25.532 21eff Level-0 table #871: 17838 bytes OK
+2025/11/30-15:24:25.542 21eff Delete type=0 #868

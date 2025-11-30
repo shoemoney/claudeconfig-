@@ -1,0 +1,11 @@
+2025/11/30-12:55:14.295 1c02 Reusing MANIFEST /Users/shoemoney/Library/Application Support/Claude/Local Storage/leveldb/MANIFEST-000001
+2025/11/30-12:55:14.318 1c02 Recovering log #852
+2025/11/30-12:55:14.351 1c02 Level-0 table #856: started
+2025/11/30-12:55:14.370 1c02 Level-0 table #856: 9432 bytes OK
+2025/11/30-12:55:14.391 1c02 Delete type=0 #852
+2025/11/30-12:57:19.952 1c04 Level-0 table #859: started
+2025/11/30-12:57:19.962 1c04 Level-0 table #859: 14527 bytes OK
+2025/11/30-12:57:19.973 1c04 Delete type=0 #857
+2025/11/30-13:20:19.952 1c04 Level-0 table #861: started
+2025/11/30-13:20:19.961 1c04 Level-0 table #861: 14153 bytes OK
+2025/11/30-13:20:19.973 1c04 Delete type=0 #858

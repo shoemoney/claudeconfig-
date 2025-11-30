@@ -1,0 +1,63 @@
+{
+	"darkMode": "dark",
+	"scale": 0,
+	"locale": "en-US",
+	"quickWindowPosition": {
+		"absolutePointInWorkspace": {
+			"x": 561,
+			"y": 311
+		},
+		"monitor": {
+			"accelerometerSupport": "unknown",
+			"bounds": {
+				"x": 0,
+				"y": 0,
+				"width": 1728,
+				"height": 1117
+			},
+			"colorDepth": 30,
+			"colorSpace": "{primaries:BT709, transfer:SRGB_HDR, matrix:RGB, range:FULL}",
+			"depthPerComponent": 10,
+			"detected": true,
+			"displayFrequency": 120.00000762939453,
+			"id": 1,
+			"internal": true,
+			"label": "Built-in Retina Display",
+			"maximumCursorSize": {
+				"width": 0,
+				"height": 0
+			},
+			"monochrome": false,
+			"nativeOrigin": {
+				"x": 0,
+				"y": 0
+			},
+			"rotation": 0,
+			"scaleFactor": 2,
+			"size": {
+				"width": 1728,
+				"height": 1117
+			},
+			"workArea": {
+				"x": 0,
+				"y": 34,
+				"width": 1728,
+				"height": 997
+			},
+			"workAreaSize": {
+				"width": 1728,
+				"height": 997
+			},
+			"touchSupport": "unknown"
+		},
+		"relativePointFromMonitor": {
+			"x": 561,
+			"y": 277
+		}
+	},
+	"userThemeMode": "system",
+	"dxt:allowlistEnabled": false,
+	"dxt:allowlistLastUpdated": "2025-11-30T21:42:26.631Z",
+	"dxt:allowlistCache": "djEwQoB4BicaCHGqbDLNqPKADehEjkqu+LBGLJvkevV5TJ/EAVh6ba94C2bT8TpTIaKjf3eM/wwFB/qOjiFP/VMWy5zink41biIJ9b8Kl1hPNJJbHo7138vSFAjW2NUhHXe+kSNVDe04A6MgaQ/548LPIcf0qgLGwj/1VIR2fXGvZUQoJxcvxaNVnYozMinJkZiKbQZEoOWN0SU8qDtst+CjZQdm9sozh/JXRBxM3Ca3N3iw2wLLW2xK8iFN9PFKY4514f3q85aiT7yWiawGe3Y8fUg1BgLSLWay5BwpkV3xlP5/FkvfhPeE6Zykcfy0zZBUsRlyAo+N2B53ccFsjILuAA+ZE5t8mVl2c69N/9DcdiGcxPU/3mto0Vco/QJnpVN+O2jRZ3HSbMi46ADBVARV+Kj5rRpOXZxSa+QLjLPvLY5sIOZ1Ub4Ku/h68HNz8jd5bNHXGjxfgkFjG9FMIjqu13KX9k1r99/DJAxPaxasCl1x7FGguFMMOqHk4sqsQS21Dhb+Y0bWk4vzNtrsf2vToa4pWGyvXLY+O3Bt7SfPu9N0HzN6zcNSTOt8I3elO/Al+LIiXyArvDKXvA2i3oEC8IKKq3psKYfS9XfJh5D+oqk=",
+	"hasTrackedInitialActivation": true
+}

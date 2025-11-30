@@ -1,0 +1,63 @@
+{
+  "dxt_version": "0.1",
+  "name": "Notes",
+  "display_name": "Read and Write Apple Notes",
+  "version": "0.1.7",
+  "description": "Read, write, and manage notes in Apple Notes",
+  "long_description": "This extension allows Claude to interact with your macOS Notes app, enabling creating, reading, updating, and listing notes.\n\nIt uses macOS automation features to interact with the Messages app and requires your explicit permission through macOS security prompts before accessing Messages or Contacts. It is not affiliated with or endorsed by Apple Inc.",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://www.claude.ai"
+  },
+  "homepage": "https://www.claude.ai",
+  "documentation": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+  "support": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+  "icon": "icon.png",
+  "tools": [
+    {
+      "name": "list_notes",
+      "description": "List all notes from Apple Notes app"
+    },
+    {
+      "name": "get_note_content",
+      "description": "Get the content of a specific note by its name"
+    },
+    {
+      "name": "add_note",
+      "description": "Create a new note in Apple Notes"
+    },
+    {
+      "name": "update_note_content",
+      "description": "Update the content of an existing note"
+    }
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"],
+      "env": {
+        "HOME": "${HOME}"
+      }
+    }
+  },
+  "keywords": [
+    "notes",
+    "apple notes",
+    "writing",
+    "documentation",
+    "organization",
+    "productivity",
+    "macos",
+    "apple"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "claude_desktop": ">=0.10.0",
+    "platforms": ["darwin"],
+    "runtimes": {
+      "node": ">=16.0.0"
+    }
+  }
+}

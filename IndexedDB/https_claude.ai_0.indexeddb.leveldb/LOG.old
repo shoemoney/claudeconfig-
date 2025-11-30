@@ -1,0 +1,37 @@
+2025/08/15-19:36:07.540 1e63 Reusing MANIFEST /Users/shoemoney/Library/Application Support/Claude/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/15-19:36:07.544 1e63 Recovering log #819
+2025/08/15-19:36:07.545 1e63 Reusing old log /Users/shoemoney/Library/Application Support/Claude/IndexedDB/https_claude.ai_0.indexeddb.leveldb/000819.log 
+2025/08/15-19:36:07.545 1e63 Delete type=2 #818
+2025/08/15-19:36:07.592 2307 Manual compaction at level-0 from ' I\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' J\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/15-19:36:07.617 1e65 Level-0 table #824: started
+2025/08/15-19:36:07.624 1e65 Level-0 table #824: 858 bytes OK
+2025/08/15-19:36:07.635 1e65 Delete type=0 #819
+2025/08/15-19:36:07.636 1e65 Manual compaction at level-0 from ' J\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' K\x01\x00\x00\x00' @ 0 : 0; will stop at ' J\x01\x00\x00\x05' @ 6401 : 1
+2025/08/15-19:36:07.636 1e65 Compacting 1@0 + 1@1 files
+2025/08/15-19:36:07.641 1e65 Generated table #825@0: 115 keys, 2175 bytes
+2025/08/15-19:36:07.642 1e65 Compacted 1@0 + 1@1 files => 2175 bytes
+2025/08/15-19:36:07.652 1e65 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-19:36:07.652 1e65 Delete type=2 #824
+2025/08/15-19:36:07.653 1e65 Manual compaction at level-0 from ' J\x01\x00\x00\x05' @ 6401 : 1 .. ' K\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/15-19:36:07.875 1e63 Level-0 table #827: started
+2025/08/15-19:36:07.884 1e63 Level-0 table #827: 1688 bytes OK
+2025/08/15-19:36:07.894 1e63 Delete type=0 #823
+2025/08/15-19:36:07.894 1e63 Delete type=2 #821
+2025/08/15-19:36:07.895 1e63 Manual compaction at level-0 from ' K\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' L\x01\x00\x00\x00' @ 0 : 0; will stop at ' K\x01\x00\x00\x05' @ 6434 : 1
+2025/08/15-19:36:07.895 1e63 Compacting 1@0 + 1@1 files
+2025/08/15-19:36:07.900 1e63 Generated table #828@0: 120 keys, 2239 bytes
+2025/08/15-19:36:07.901 1e63 Compacted 1@0 + 1@1 files => 2239 bytes
+2025/08/15-19:36:07.911 1e63 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-19:36:07.912 1e63 Delete type=2 #827
+2025/08/15-19:36:07.912 1e63 Manual compaction at level-0 from ' K\x01\x00\x00\x05' @ 6434 : 1 .. ' L\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/15-19:36:08.260 1e63 Level-0 table #830: started
+2025/08/15-19:36:08.266 1e63 Level-0 table #830: 657 bytes OK
+2025/08/15-19:36:08.278 1e63 Delete type=0 #826
+2025/08/15-19:36:08.278 1e63 Delete type=2 #825
+2025/08/15-19:36:08.279 1e63 Manual compaction at level-0 from ' L\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' M\x01\x00\x00\x00' @ 0 : 0; will stop at ' L\x01\x00\x00\x05' @ 6453 : 1
+2025/08/15-19:36:08.279 1e63 Compacting 1@0 + 1@1 files
+2025/08/15-19:36:08.284 1e63 Generated table #831@0: 120 keys, 2242 bytes
+2025/08/15-19:36:08.284 1e63 Compacted 1@0 + 1@1 files => 2242 bytes
+2025/08/15-19:36:08.295 1e63 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-19:36:08.295 1e63 Delete type=2 #830
+2025/08/15-19:36:08.296 1e63 Manual compaction at level-0 from ' L\x01\x00\x00\x05' @ 6453 : 1 .. ' M\x01\x00\x00\x00' @ 0 : 0; will stop at (end)

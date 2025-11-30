@@ -1,0 +1,85 @@
+{
+  "dxt_version": "0.1",
+  "name": "chrome-control",
+  "display_name": "Control Chrome",
+  "version": "0.1.5",
+  "description": "Control Google Chrome browser tabs, windows, and navigation",
+  "long_description": "This extension allows Claude to interact with Google Chrome browser, enabling tab management, navigation, page content reading, and browser automation. It uses Chrome's AppleScript API to control the browser programmatically.\n\nThis extension is not affiliated with or endorsed by Google.",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://www.claude.ai"
+  },
+  "homepage": "https://www.claude.ai",
+  "documentation": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+  "support": "https://support.anthropic.com/en/collections/4078531-claude-ai",
+  "icon": "icon.png",
+  "tools": [
+    {
+      "name": "open_url",
+      "description": "Open a URL in Chrome"
+    },
+    {
+      "name": "get_current_tab",
+      "description": "Get information about the current active tab"
+    },
+    {
+      "name": "list_tabs",
+      "description": "List all open tabs in Chrome"
+    },
+    {
+      "name": "close_tab",
+      "description": "Close a specific tab"
+    },
+    {
+      "name": "switch_to_tab",
+      "description": "Switch to a specific tab"
+    },
+    {
+      "name": "reload_tab",
+      "description": "Reload a tab"
+    },
+    {
+      "name": "go_back",
+      "description": "Navigate back in browser history"
+    },
+    {
+      "name": "go_forward",
+      "description": "Navigate forward in browser history"
+    },
+    {
+      "name": "execute_javascript",
+      "description": "Execute JavaScript in the current tab"
+    },
+    {
+      "name": "get_page_content",
+      "description": "Get the text content of the current page"
+    }
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"]
+    }
+  },
+  "keywords": [
+    "chrome",
+    "browser",
+    "tabs",
+    "navigation",
+    "automation",
+    "web",
+    "javascript",
+    "scraping",
+    "macos"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "claude_desktop": ">=0.10.0",
+    "platforms": ["darwin"],
+    "runtimes": {
+      "node": ">=16.0.0"
+    }
+  }
+}
