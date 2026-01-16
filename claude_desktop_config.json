@@ -1,84 +1,51 @@
 {
-	"mcpServers": {
-		"playwright": {
-			"command": "bunx",
-			"args": ["@executeautomation/playwright-mcp-server"]
-		},
-		"Exa_web_search_mcp": {
-			 "command": "npx",
+  "mcpServers": {
+    "playwright": {
+      "command": "bunx",
+      "args": [
+        "@executeautomation/playwright-mcp-server"
+      ]
+    },
+    "Exa_web_search_mcp": {
+      "command": "npx",
       "args": [
         "-y",
         "mcp-remote",
         "https://mcp.exa.ai/mcp"
+      ],
+      "env": {
+        "EXA_API_KEY": "${EXA_API_KEY}"
+      }
+    },
+    "filesystem": {
+      "command": "bunx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/shoemoney/"
       ]
-			"env": {
-				"EXA_API_KEY": "${EXA_API_KEY}"
-			}
-		},
-		"tavily_websearch_mcp": {
-			"command": "npx",
-			"args": ["y", "/Users/shoemoney/.bun/bin/tavily-mcp"],
-			"env": {
-				"TAVILY_API_KEY": "${TAVILY_API_KEY}"
-			}
-		},
-		"Openrouter_Mcp": {
-			"command": "bunx",
-			"args": ["@stabgan/openrouter-mcp-multimodal"],
-			"env": {
-				"OPEN_ROUTER_API_KEY": "${OPEN_ROUTER_API_KEY}"
-			}
-		},
-		"filesystem": {
-			"command": "bunx",
-			"args": [
-				"@modelcontextprotocol/server-filesystem",
-				"/Users/shoemoney/",
-			]
-		},
-		"puppeteer": {
-			"command": "bunx",
-			"args": ["@modelcontextprotocol/server-puppeteer"],
-			"env": {
-				"SCREENSHOT_PATH": "/Users/shoemoney/Desktop",
-				"PUPPETEER_HEADLESS": "true"
-			}
-		},
-		"memory": {
-			"command": "bunx",
-			"args": ["@modelcontextprotocol/server-memory"]
-		},
-		"github": {
-			"command": "bunx",
-			"args": ["@modelcontextprotocol/server-github"],
-			"env": {
-				"GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
-			}
-		},
-		"brave_web_and_image_search_mcp": {
-			"command": "bunx",
-			"args": ["-y", "@brave/brave-search-mcp-server", "--transport", "http"],
-			"env": {
-				"BRAVE_API_KEY": "${BRAVE_API_KEY}"
-			}
-		},
-		"firecrawl-Web_browsing_mcp": {
-			"command": "bunx",
-			"args": ["-y", "firecrawl-mcp"],
-			"env": {
-				"FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}",
-				"FIRECRAWL_RETRY_MAX_ATTEMPTS": "5",
-				"FIRECRAWL_RETRY_INITIAL_DELAY": "2000",
-				"FIRECRAWL_RETRY_MAX_DELAY": "30000",
-				"FIRECRAWL_RETRY_BACKOFF_FACTOR": "3",
-				"FIRECRAWL_CREDIT_WARNING_THRESHOLD": "2000",
-				"FIRECRAWL_CREDIT_CRITICAL_THRESHOLD": "500"
-			}
-		},
-
-		"Magic_UI_Design_mcp": {
-			"command": "bunx",
-			"args": ["@magicuidesign/mcp@latest"]
-		}
-	}
+    },
+    "puppeteer": {
+      "command": "bunx",
+      "args": [
+        "@modelcontextprotocol/server-puppeteer"
+      ],
+      "env": {
+        "SCREENSHOT_PATH": "/Users/shoemoney/Desktop",
+        "PUPPETEER_HEADLESS": "true"
+      }
+    },
+      
+    "brave_mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@brave/brave-search-mcp-server",
+        "--transport",
+        "http"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      }
+    }
+  }
 }
